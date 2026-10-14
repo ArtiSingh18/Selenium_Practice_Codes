@@ -5,12 +5,12 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome() 
 driver.maximize_window()
 
 driver.get("https://www.amazon.fr/")
 time.sleep(2)
-
+# G
 def take_screenshot(name):
     driver.save_screenshot(name)
 
